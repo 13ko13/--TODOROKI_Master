@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# ビルド結果（コンパイルされたファイル）
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+*.exe
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.pdb
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# 一時ファイル
+*.log
+*.tmp
+*.bak
+
+
+# Visual Studio関連
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# ビルドフォルダ
+Debug/
+Release/
+x64/
+ipch/
+Log.txt
+
+# その他
+*.cache
+*.tlog
+*.idb
+*.ilk
