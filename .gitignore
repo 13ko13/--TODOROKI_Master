@@ -4,6 +4,8 @@
 *.dll
 *.pdb
 *.lib
+# DxLib・Effekseerのライブラリはビルドに必要なので含める
+!Dxlib_h/*.lib
 
 # 一時ファイル
 *.log
