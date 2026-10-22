@@ -1,7 +1,7 @@
 ﻿#include "Camera.h"
 #include "../System/Input.h"
 #include "../Math/Matrix4x4.h"
-#include "../../../Dxlib_h/EffekseerForDXLib.h"
+#include <EffekseerForDXLib.h>
 
 namespace
 {
